@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-/* html,body{
-    height: 200%;
-}*/
 body{
     background: rgb(141, 154, 226);
     background: linear-gradient(180deg, rgba(141,154,226,1) 0%, rgba(19,35,124,1) 100%);
@@ -29,7 +26,8 @@ h1{
     font-size: 24px;
     margin-bottom: 2px;
 }
-h2{
+
+h2 {
     font-size: 16px;
    
 }
@@ -63,6 +61,7 @@ h2{
     color: rgb(54,77,204);
     font-weight: bolder;
 }
+
 .links-list li a span{
     color: rgb(128, 128, 128);
     font-size: 12px;
@@ -70,5 +69,10 @@ h2{
 
 .links-list.secound {
  margin-bottom: 50px;
+}
 
+.footer {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 12px;
 }
