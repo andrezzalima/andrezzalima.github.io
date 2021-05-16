@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* html,body{
+    height: 200%;
+}*/
+body{
+    background: rgb(141, 154, 226);
+    background: linear-gradient(180deg, rgba(141,154,226,1) 0%, rgba(19,35,124,1) 100%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background-repeat: no-repeat;
+}
+
+.avatar{
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid white;
+    box-shadow: 0 0 20px white;
+    margin-bottom: 10px;
+    
+}
+
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+h2{
+    font-size: 16px;
+   
+}
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around; /*espaçamento ente eles */
+    list-style: none;
+    margin: 20px 0;
+}
+
+.social img{
+    width: 33px;    
+}
+
+.links-list li{
+    list-style: none;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(191, 199, 245);
+    margin: 10px 30px;
+   }
+
+.links-list li a{
+    text-decoration: none;
+    color: rgb(54,77,204);
+    font-weight: bolder;
+}
+.links-list li a span{
+    color: rgb(128, 128, 128);
+    font-size: 12px;
+}
+
+.links-list.secound {
+ margin-bottom: 50px;
+
+}
